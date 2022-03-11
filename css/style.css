@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: #99DDFF;
+}
+
+body{
+    background-color: #150734;
+}
+
+main {
+
+    background-color: #0F2557;
+    margin: 25px auto;
+    width: 1200px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #28559A;
+    color: rgb(145, 154, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #3778C2;
+    color: rgb(145, 154, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    background-color: #28559A;
+    color: rgb(145, 154, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.tour {
+    width: 200px;
+    block-size: auto;
+    text-align: center;
+}
+
+ul li {
+    list-style: circle;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: #999;
+    background-color: #28559A;
+}
+
+th {
+    border: 3px solid #999;
+}
+
+td {
+    border: 3px groove #999;
+}
+
+mark {
+    background-color: blue; 
+  }
+  
+  .mark { 
+    background-color: blue; 
+  }
+ 
+  #mark {
+    background-color: blue; 
+  }
